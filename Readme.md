@@ -6,7 +6,8 @@ of once.
 ### Build and Run
 
 mvn clean install -DskipTests=true
-deploy war onto a JBoss-EAP 7.4.10
+deploy war onto a JBoss-EAP 7.4.14
+start with openjdk-1.8.0.232
 
 ### Test WSDL
 
