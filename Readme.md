@@ -18,4 +18,7 @@ make sure jboss runs & wsdl is accessible
 mvn test
 
 -> find the following lines in the jboss console log
-
+```
+2024-01-11 11:16:48,263 INFO    [CID=] stdout - MyInterceptor invoked with ctx.getClass()=org.jboss.invocation.InterceptorContext$Invocation
+2024-01-11 11:16:48,264 INFO    [CID=] stdout - MyInterceptor invoked with ctx.getClass()=org.jboss.weld.interceptor.proxy.TerminalAroundInvokeInvocationContext
+```
